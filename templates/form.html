@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block header %} Madlibs {% endblock %}
+{% block content %} 
+    <div id="container" class="">
+        <form action="/story">
+            <p>
+                <label for="place">place: </label>
+                <input type="text" name="place">
+            </p>
+            <p>
+                <label for="noun">noun: </label>
+                <input type="text" name="noun">
+            </p>
+            <p>
+                <label for="verb">verb: </label>
+                <input type="text" name="verb">
+            </p>
+            <p>
+                <label for="objective">objective: </label>
+                <input type="text" name="adjective">
+            </p>
+            <p>
+                <label for="plural_noun">plural_noun: </label>
+                <input type="text" name="plural_noun">
+            </p>
+            <p>
+                <button>Submit</button>
+            </p>
+        </form>
+    </div>
+{% endblock %}
