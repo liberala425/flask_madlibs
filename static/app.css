@@ -1,3 +1,7 @@
+body {
+    background-color: bisque;
+}
 #container {
-    flex-direction: column;
+    margin: 10px;
+    padding: auto;
 }
